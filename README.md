@@ -12,9 +12,7 @@ go get -u https://github.com/dongzaidong/gokvo
 # How to use
 ```
 	// A 业务
-
 	var obser = struct{}{}
-
 	gokvo.AddObserver(obser, "send", func(a interface{}) {
 		fmt.Println("监听到值：", a)
 	})
@@ -25,6 +23,6 @@ go get -u https://github.com/dongzaidong/gokvo
 	fmt.Println(err)
 
 	// 移除监听
-		gokvo.RemoveObserver(obser, "send")
+	gokvo.RemoveObserver(obser, "send")
 ```
 
