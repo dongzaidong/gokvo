@@ -2,7 +2,7 @@
 Implement message notifications based on notifications in ios
 
 # Introduction
-项目开发中，经常遇到A业务完成需要通知B业务或者C业务等等去做一些响应，为了完成这种项目中不同位置的信息发送，使用键值监听通知模式，但是在go中没有现场的通知包可使用，所以作者根据以前ios开发经验，模仿了notification机制做了一个适用于go的框架
+项目开发中，经常遇到A业务完成需要通知B业务或者C业务等等去做一些响应，为了完成这种项目中不同位置的信息发送，使用键值监听通知模式，但是在go没有官方实现，所以作者根据以前ios开发经验，模仿了notification机制做了一个适用于go的框架
 
 # How to install
 ```
